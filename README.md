@@ -13,10 +13,6 @@
   <a href="https://www.linkedin.com/in/odairjcjunior/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/Made%20by-odairdev-blue">
   </a>
-  
-  <a href="https://github.com/cassiogroh/WeatherHome/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/odairdev/inventoryServer?style=plastic>">
-  </a>
 
   <img alt="GitHub" src="https://img.shields.io/github/license/odairdev/inventoryServer?style=plastic">
 
@@ -67,13 +63,13 @@ Technologies used to develop this App
 **Clone the API project and access the folder**
 
 ```bash
-$ git clone https://github.com/odairdev/inventoryServer && cd inventoryServer
+$ git clone https://github.com/odairdev/inventory_backend
 ```
 
 **Follow the steps below**
 
-- Create a .env.local file with a JWT_SECRET constant
-- Set a Container for the postgres DB in port: 5432
+- Create a .env file with a JWT_SECRET constant
+- Set up a Container for the postgres DB in port: 5432 with an inventory database and default password is admin
 
 ```bash
 # Install the dependencies
@@ -97,14 +93,14 @@ $ npm dev
 ```bash
 # Fork using GitHub command line or trhough website
 
-$ gh repo fork odairdev/inventorySystem
+$ gh repo fork odairdev/inventory_backend
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd WeatherHome
+$ git clone your-fork-url && cd inventory_backend
 
 # Create a branch with your feature
 $ git checkout -b my-feature
@@ -124,4 +120,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 ---
 
-Made by Odair José Custodio Junior 👍 &nbsp;[See my linkedin](https://www.linkedin.com/in/odairjcjunior/)
+Made by Odair José Custodio Junior 👍 &nbsp;[Check out my linkedin](https://www.linkedin.com/in/odairjcjunior/)
