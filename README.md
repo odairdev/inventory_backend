@@ -88,9 +88,9 @@ $ docker-compose start
 $ docker-compose down
 
 ```
-- Both server and database will in different containers
+- Both server and database will br in different containers
 
-- If you don't want to use docker-compose, just set a container for the database in port 5432 and run the following commands:
+- If you don't want to use docker-compose, just set up a container for the database in port 5432 and run the following commands:
 
 ```bash
 # Install the dependencies
