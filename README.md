@@ -69,7 +69,28 @@ $ git clone https://github.com/odairdev/inventory_backend
 **Follow the steps below**
 
 - Create a .env file with a JWT_SECRET constant
-- Set up a Container for the postgres DB in port: 5432 with an inventory database and default password is admin
+- Docker compose is configured in this project, so just let Docker opened and run:
+
+```bash
+# Install the dependencies
+$ docker-compose up -d --build
+
+# Then run TypeORM migrations
+$ npm typeorm migration:run
+
+# To stop both containers
+$ docker-compose stop
+
+# To start both containers again
+$ docker-compose start
+
+# To remove both containers from docker
+$ docker-compose down
+
+```
+- Both server and database will in different containers
+
+- If you don't want to use docker-compose, just set a container for the database in port 5432 and run the following commands:
 
 ```bash
 # Install the dependencies

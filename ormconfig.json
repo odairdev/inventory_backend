@@ -4,7 +4,7 @@
     "port": 5432,
     "username": "postgres",
     "password": "admin",
-    "database": "inventory",
+    "database": "database_inventory",
     "entities": [
        "src/app/models/*.{ts, js}"
     ],
